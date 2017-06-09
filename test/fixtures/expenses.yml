@@ -1,0 +1,17 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  date: 2017-06-05
+  place_of_visit: MyString
+  purpose: MyText
+  particulars: MyString
+  bill_enclosed: false
+  remarks: MyText
+
+two:
+  date: 2017-06-05
+  place_of_visit: MyString
+  purpose: MyText
+  particulars: MyString
+  bill_enclosed: false
+  remarks: MyText
