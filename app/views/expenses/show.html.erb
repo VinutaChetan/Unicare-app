@@ -30,5 +30,13 @@
   <%= @expense.remarks %>
 </p>
 
+
+<p>
+  <strong>File Enclosed:</strong>
+  <a><%= link_to "Download", "http://localhost:3000" + @expense.cover.url.to_s if @expense.cover%> </a><br/>
+
+  <%#= (@expense.cover.url) if @expense.cover %>
+</p>
+
 <%= link_to 'Edit', edit_expense_path(@expense) %> |
 <%= link_to 'Back', expenses_path %>
