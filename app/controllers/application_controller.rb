@@ -5,6 +5,7 @@ class ApplicationController < ActionController::Base
 
   before_filter :find_url
 
+private
   def find_url
   	@hostname = request.host
   end	
